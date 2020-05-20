@@ -10,7 +10,7 @@ CONSUMER_SECRET = 'consumer secret here'
 ACCESS_KEY = 'access key here'
 ACCESS_SECRET = 'access secret here'
 
-
+#other cameras will require different code
 camera = PiCamera()
 camera.start_preview()
 sleep(5)
